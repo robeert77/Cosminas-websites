@@ -1,0 +1,377 @@
+/* CSS pagina Cosmina */
+
+/* Navbar*/
+
+body {
+    margin: 0;
+}
+
+.bg-dark {
+    background-color: #e6e6ff !important;
+}
+
+.bg-dark a {
+    border-bottom: transparent solid 1.3px;
+    margin: 0 13px;
+}
+
+.notHome {
+    border-bottom: transparent solid 1.1px;
+}
+
+.notHome:hover {
+    border-bottom: rgba(64, 63, 63, 0.5) solid 1.1px;
+}
+
+.bg-dark a:hover {
+    border-bottom: rgb(54, 53, 53) solid 1.3px;
+    color: #000;
+}
+
+.nav-link:last-child {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.nav-aici {
+    background-color: #eeeeff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px #8a8a99;
+    color: #5e5e69 !important;
+    cursor: default;
+    width: 105px;
+}
+
+/* If the screen size is 991px or less*/
+@media only screen and (max-width: 991px) {
+    .bg-dark a {
+        margin: 0;
+    }
+
+    .px-5 {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+}
+
+/* Title for all pages */
+
+.title {
+    margin: 0;
+    background-image: linear-gradient(#e6e6ff, #fff);
+    padding: 70px;
+}
+
+section h1 {
+    font-size: 2.5rem;
+}
+
+/* If the screen size is 450px or less*/
+@media only screen and (max-width: 450px) {
+    section h1 {
+        font-size: 2rem;
+    }
+}
+/* Poza + textu de pe poza */
+
+.carousel-caption {
+    margin-bottom: 21%;
+    padding: 0;
+    width: 50%;
+}
+
+.carousel-caption h5 {
+    font-size: 3.7rem;
+    color: #e6e6ff;
+    border-bottom: rgba(10, 10, 10, 0.3) solid 2px;
+    padding-bottom: 5px;
+
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: #e6e6ff;
+}
+
+.dark:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+/* If the screen size is 1200px or less*/
+@media only screen and (max-width: 1200px) {
+    .carousel-caption {
+        margin-bottom: 18.5%;
+        width: 55%
+    }
+}
+
+/* If the screen size is 991px or less*/
+@media only screen and (max-width: 991px) {
+    .carousel-caption {
+        margin-bottom: 17%;
+        width: 60%
+    }
+
+    .carousel-caption h5 {
+        font-size: 3rem;
+    }
+    
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+/* If the screen size is 700px or less*/
+@media only screen and (max-width: 700px) {
+    .carousel-caption {
+        margin-bottom: 15%;
+        width: 70%;
+    }
+
+    .carousel-caption h5 {
+        border-width: 1.5px !important;
+        font-size: 2.5rem;
+    }
+    
+    .carousel-caption p {
+        font-size: 0.85rem;
+    }
+}
+
+/* If the screen size is 500px or less*/
+@media only screen and (max-width: 500px) {
+    .carousel-caption {
+        margin-bottom: 12%;
+    }
+
+    .carousel-caption h5 {
+        border-width: 1.25px !important;
+        font-size: 2rem;
+    }
+    
+    .carousel-caption p {
+        font-size: 0.7rem;
+    }
+}
+
+/* Bodyul meu din pagina */
+
+strong {
+    padding-bottom: 0.1em;
+    padding-left: 0;
+    padding-right: 0.5em;
+}
+
+.paragraf {
+    margin: 2rem 6rem;
+    margin-right: 0;
+    color: black;
+}
+
+hr {
+    background-color: #e6e6ff;
+}
+
+/* If the screen size is 1200px or less*/
+@media only screen and (max-width: 1200px) {
+    .paragraf {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+/* If the screen size is 991px or less*/
+@media only screen and (max-width: 991px) {
+    .paragraf {
+        margin-right: 1rem;
+    }
+}
+
+/* If the screen size is 600px or less*/
+@media only screen and (max-width: 600px) {
+    .paragraf {
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+}
+
+h3 .bi {
+    color: #e6e6ff;
+}
+
+h3 .bi:hover {
+    color: rgb(70, 70, 70);
+}
+
+/* About us page */
+
+/* Team pictures */
+
+.portrait-box {
+    margin: 100px 0;
+    background-image: linear-gradient(#fff, #efefef);
+    box-shadow: 0 0 8px #d2d2d2;
+}
+
+/* If the screen size is 767px or less*/
+@media only screen and (max-width: 7676px) {
+    .portrait-box {
+        margin: 25px 0;
+    }
+}
+
+.portrait-img {
+    max-width: 90%;
+    height: auto;
+}
+
+section i {
+    margin: 0 3.5%;
+    color: #222;
+}
+
+section i:hover {
+    color: #666;
+}
+
+/* If the screen size is 991px or less*/
+@media only screen and (max-width: 991px) {
+    i {
+        margin: 0 2.4%;
+        font-size: 44px !important;
+    }
+}
+
+/* Footer */
+
+.teal {
+    background-color: rgb(41, 41, 41);
+    color: #e6e6ff;
+}
+
+.distanta {
+    padding: 30px 5%;
+}
+
+footer i {
+    color: #e6e6ff;
+    font-size: 38px;
+    margin: 0 0.5rem;
+}
+
+footer i:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Blogs Page */
+
+/* Cards */
+
+.card-shadow {
+    box-shadow: 0 0 8px #d2d2d2;
+    padding: 0;
+}
+
+/* If the screen size is 576px or less*/
+@media only screen and (max-width: 576px) {
+    .card-shadow {
+        margin: 0 15px;
+    }
+}
+
+.my-card {
+    background-image: linear-gradient(#fff, #efefef);
+    border-top: #333 solid 1px;
+    font-size: 0.85rem;
+}
+
+.card-p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+.title-header {
+    background-image: linear-gradient(#fff, #efefef);
+    border-bottom: #333 solid 1px;
+    color: #666;
+    font-size: 100%;
+}
+
+.title-header:hover {
+    background-image: linear-gradient(#fcfcfc, #e6e6e6);
+    color: #000;
+}
+
+
+.middle-card {
+    margin: 0 35px;
+}
+
+.gap {
+    margin: 75px 0;
+}
+
+/* If the screen size is 767px or less*/
+@media only screen and (max-width: 767px) {
+    .middle-card {
+        margin: 50px 0;
+    }
+
+    .gap {
+        margin: 50px 0;
+    }
+}
+
+/* If the screen size is 576px or less*/
+@media only screen and (max-width: 576px) {
+    .middle-card {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+/* Cards -> button */
+
+.btn {
+    background-color: transparent;
+    border: #333 solid 1.5px;
+    border-radius: 22px;
+    color: #333;
+    padding: 4px 13px;
+}
+
+.btn:hover {
+    background-color: #333;
+    border: #000 solid 1.5px;
+    color: #fff;
+}
+
+/* If the screen size is 991px or less*/
+@media only screen and (max-width: 991px) {
+    .btn {
+        font-size: 0.8rem;
+    }
+}
+
+/* If the screen size is 767px or less*/
+@media only screen and (max-width: 767px) {
+    .btn {
+        font-size: 0.95rem;
+    }
+}
+
+/* If the screen size is 450px or less*/
+@media only screen and (max-width: 450px) {
+    .btn {
+        font-size: 0.8rem;
+    }
+}
